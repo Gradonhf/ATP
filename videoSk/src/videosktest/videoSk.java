@@ -86,7 +86,7 @@ public class videoSk extends PApplet {
 
     static public void main(String[] passedArgs) {
 
-        String[] appletArgs = new String[]{"videosk.videoSk"};
+        String[] appletArgs = new String[]{"videosktest.videoSk"};
 
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));
