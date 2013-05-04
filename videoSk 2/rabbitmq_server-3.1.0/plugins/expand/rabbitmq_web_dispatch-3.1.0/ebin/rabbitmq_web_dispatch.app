@@ -1,0 +1,10 @@
+{application,rabbitmq_web_dispatch,
+             [{description,"RabbitMQ Web Dispatcher"},
+              {vsn,"3.1.0"},
+              {modules,[rabbit_web_dispatch,rabbit_web_dispatch_app,
+                        rabbit_web_dispatch_registry,rabbit_web_dispatch_sup,
+                        rabbit_web_dispatch_util,rabbit_webmachine]},
+              {registered,[]},
+              {mod,{rabbit_web_dispatch_app,[]}},
+              {env,[]},
+              {applications,[kernel,stdlib,mochiweb,webmachine]}]}.

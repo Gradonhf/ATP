@@ -1,0 +1,274 @@
+
+=INFO REPORT==== 3-May-2013::16:00:41 ===
+Starting RabbitMQ 3.1.0 on Erlang R16B
+Copyright (C) 2007-2013 VMware, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 3-May-2013::16:00:41 ===
+node           : rabbit@Gradon-Faulkners-MacBook-Pro
+home dir       : /Users/GradonHFaulkner
+config file(s) : (none)
+cookie hash    : aQVV80bokCCc15neH2ocXQ==
+log            : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/log/rabbitmq/rabbit@Gradon-Faulkners-MacBook-Pro.log
+sasl log       : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/log/rabbitmq/rabbit@Gradon-Faulkners-MacBook-Pro-sasl.log
+database dir   : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/lib/rabbitmq/mnesia/rabbit@Gradon-Faulkners-MacBook-Pro
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Limiting to approx 156 file handles (138 sockets)
+
+=WARNING REPORT==== 3-May-2013::16:00:42 ===
+Only 4096MB of 7579MB memory usable due to limited address space.
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Memory limit set to 1638MB of 7579MB total.
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Disk free limit set to 1000MB
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Adding vhost '/'
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Creating user 'guest'
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 3-May-2013::16:00:42 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 3-May-2013::16:00:42 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 3-May-2013::16:02:03 ===
+accepting AMQP connection <0.288.0> (127.0.0.1:61434 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::16:02:04 ===
+closing AMQP connection <0.288.0> (127.0.0.1:61434 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+Starting RabbitMQ 3.1.0 on Erlang R16B
+Copyright (C) 2007-2013 VMware, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+node           : rabbit@Gradon-Faulkners-MacBook-Pro
+home dir       : /Users/GradonHFaulkner
+config file(s) : (none)
+cookie hash    : aQVV80bokCCc15neH2ocXQ==
+log            : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/log/rabbitmq/rabbit@Gradon-Faulkners-MacBook-Pro.log
+sasl log       : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/log/rabbitmq/rabbit@Gradon-Faulkners-MacBook-Pro-sasl.log
+database dir   : /Users/GradonHFaulkner/Git/rab/rabbitmq_server-3.1.0/sbin/../var/lib/rabbitmq/mnesia/rabbit@Gradon-Faulkners-MacBook-Pro
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+Limiting to approx 156 file handles (138 sockets)
+
+=WARNING REPORT==== 3-May-2013::16:02:28 ===
+Only 4096MB of 7573MB memory usable due to limited address space.
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+Memory limit set to 1638MB of 7573MB total.
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+Disk free limit set to 1000MB
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 3-May-2013::16:02:28 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 3-May-2013::16:02:28 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 3-May-2013::16:02:31 ===
+accepting AMQP connection <0.226.0> (127.0.0.1:61442 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::16:02:31 ===
+closing AMQP connection <0.226.0> (127.0.0.1:61442 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::16:02:39 ===
+accepting AMQP connection <0.239.0> (127.0.0.1:61444 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 3-May-2013::16:02:44 ===
+closing AMQP connection <0.239.0> (127.0.0.1:61444 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 3-May-2013::18:28:34 ===
+accepting AMQP connection <0.1172.0> (127.0.0.1:63434 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:28:34 ===
+closing AMQP connection <0.1172.0> (127.0.0.1:63434 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:29:16 ===
+accepting AMQP connection <0.1186.0> (127.0.0.1:63445 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:29:16 ===
+closing AMQP connection <0.1186.0> (127.0.0.1:63445 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:34:28 ===
+accepting AMQP connection <0.1229.0> (127.0.0.1:63647 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:34:28 ===
+closing AMQP connection <0.1229.0> (127.0.0.1:63647 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:35:01 ===
+accepting AMQP connection <0.1243.0> (127.0.0.1:63651 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:35:01 ===
+closing AMQP connection <0.1243.0> (127.0.0.1:63651 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:41:08 ===
+accepting AMQP connection <0.1291.0> (127.0.0.1:63788 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:16 ===
+accepting AMQP connection <0.1309.0> (127.0.0.1:63797 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:16 ===
+closing AMQP connection <0.1309.0> (127.0.0.1:63797 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:17 ===
+accepting AMQP connection <0.1319.0> (127.0.0.1:63798 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:17 ===
+closing AMQP connection <0.1319.0> (127.0.0.1:63798 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:18 ===
+accepting AMQP connection <0.1329.0> (127.0.0.1:63799 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:18 ===
+closing AMQP connection <0.1329.0> (127.0.0.1:63799 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:19 ===
+accepting AMQP connection <0.1340.0> (127.0.0.1:63800 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:19 ===
+closing AMQP connection <0.1340.0> (127.0.0.1:63800 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:20 ===
+accepting AMQP connection <0.1350.0> (127.0.0.1:63801 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:20 ===
+closing AMQP connection <0.1350.0> (127.0.0.1:63801 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:21 ===
+accepting AMQP connection <0.1360.0> (127.0.0.1:63802 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:42:21 ===
+closing AMQP connection <0.1360.0> (127.0.0.1:63802 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:54:44 ===
+accepting AMQP connection <0.1448.0> (127.0.0.1:63858 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::18:54:45 ===
+closing AMQP connection <0.1448.0> (127.0.0.1:63858 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 3-May-2013::18:58:11 ===
+closing AMQP connection <0.1291.0> (127.0.0.1:63788 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 3-May-2013::18:58:13 ===
+accepting AMQP connection <0.1480.0> (127.0.0.1:63866 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:01:38 ===
+accepting AMQP connection <0.1511.0> (127.0.0.1:63889 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:01:38 ===
+closing AMQP connection <0.1511.0> (127.0.0.1:63889 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:15:48 ===
+accepting AMQP connection <0.1611.0> (127.0.0.1:64183 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:15:48 ===
+closing AMQP connection <0.1611.0> (127.0.0.1:64183 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:51 ===
+accepting AMQP connection <0.1673.0> (127.0.0.1:64244 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:52 ===
+closing AMQP connection <0.1673.0> (127.0.0.1:64244 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:57 ===
+accepting AMQP connection <0.1683.0> (127.0.0.1:64245 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:57 ===
+closing AMQP connection <0.1683.0> (127.0.0.1:64245 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:58 ===
+accepting AMQP connection <0.1693.0> (127.0.0.1:64246 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:23:58 ===
+closing AMQP connection <0.1693.0> (127.0.0.1:64246 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:38:17 ===
+accepting AMQP connection <0.1793.0> (127.0.0.1:64334 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:38:18 ===
+closing AMQP connection <0.1793.0> (127.0.0.1:64334 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:38:23 ===
+accepting AMQP connection <0.1804.0> (127.0.0.1:64335 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:38:23 ===
+closing AMQP connection <0.1804.0> (127.0.0.1:64335 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:02 ===
+accepting AMQP connection <0.1888.0> (127.0.0.1:64608 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:20 ===
+accepting AMQP connection <0.1900.0> (127.0.0.1:64613 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:21 ===
+closing AMQP connection <0.1900.0> (127.0.0.1:64613 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:30 ===
+accepting AMQP connection <0.1912.0> (127.0.0.1:64616 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:30 ===
+closing AMQP connection <0.1912.0> (127.0.0.1:64616 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:31 ===
+accepting AMQP connection <0.1922.0> (127.0.0.1:64617 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:31 ===
+closing AMQP connection <0.1922.0> (127.0.0.1:64617 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:32 ===
+accepting AMQP connection <0.1932.0> (127.0.0.1:64618 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:32 ===
+closing AMQP connection <0.1932.0> (127.0.0.1:64618 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:33 ===
+accepting AMQP connection <0.1942.0> (127.0.0.1:64619 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:33 ===
+closing AMQP connection <0.1942.0> (127.0.0.1:64619 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:34 ===
+accepting AMQP connection <0.1952.0> (127.0.0.1:64620 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 3-May-2013::19:50:34 ===
+closing AMQP connection <0.1952.0> (127.0.0.1:64620 -> 127.0.0.1:5672)
+
+=ERROR REPORT==== 4-May-2013::09:57:36 ===
+closing AMQP connection <0.1888.0> (127.0.0.1:64608 -> 127.0.0.1:5672):
+{heartbeat_timeout,running}

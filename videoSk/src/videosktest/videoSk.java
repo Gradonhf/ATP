@@ -22,9 +22,14 @@ import java.io.PrintWriter;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
+import com.rabbitmq.client.ConnectionFactory;
+import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.Channel;
+
+
 
 public class videoSk extends PApplet {
-
+private final static String QUEUE_NAME = "hello";
     Capture cam; //Set up the camera
     com.google.zxing.Reader reader = new com.google.zxing.qrcode.QRCodeReader();
     int WIDTH = 640;
@@ -35,11 +40,8 @@ public class videoSk extends PApplet {
 // Grabs the image file    
     public void setup() {
         size(640, 480);
-    
         // The font "Meta-Bold.vlw" must be located in the 
         // current sketch's "data" directory to load successfully
-       
-
         cam = new Capture(this, WIDTH, HEIGHT);
         cam.start();
     }
@@ -64,6 +66,26 @@ public class videoSk extends PApplet {
                 //Once we get the results, we can do some display
                 if (result.getText() != null) {
                     println(result.getText());
+
+
+                    
+                    ConnectionFactory factory = new ConnectionFactory();
+                    factory.setHost("localhost");
+                    Connection connection = factory.newConnection();
+                    Channel channel = connection.createChannel();
+
+                    channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+                    String message = "Hello World!";
+                    channel.basicPublish("", QUEUE_NAME, null, result.getText().getBytes());
+                    System.out.println(" [x] Sent '" + message + "'");
+
+                    channel.close();
+                    connection.close();
+
+
+
+
+
                     ResultPoint[] points = result.getResultPoints();
                     //Draw some ellipses on at the control points
                     for (int i = 0; i < points.length; i++) {
